@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/cars/[carid]/page.js", "src/app/api/users/logout/route.js", "src/app/api/users/currentuser/route.js", "src/helpers/tokenValidation.js", "src/app/api/users/login/route.js", "src/app/api/users/register/route.js", "src/app/api/users/register/route.js", "src/app/api/bookings/route.js", "src/app/api/bookings/route.js", "src/app/api/cars/[carid]/route.js", "src/app/api/cars/route.js"],
+  "exclude": ["node_modules"]
+}

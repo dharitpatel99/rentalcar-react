@@ -1,0 +1,127 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.container-auth{
+    margin: 0 auto !important;
+    width: 400px !important;
+    border: 1px solid !important;
+    padding: 50px !important;
+    border-radius: 10px !important;
+    font-size: 20px !important;
+   }
+
+   .container{
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid;
+    margin-top: 20px;
+   }
+
+   input{
+    padding: 8px !important;
+    width: 100% 
+   }
+
+   .center{
+    text-align: center !important;
+   }
+   
+   .buttonn{
+    margin: 10px !important;
+   }
+
+   nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+   }
+
+   .nav-right{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+   }
+
+   .nav-right > * {
+    padding: 10px;
+   }
+
+   .cargrid{
+    display: flex;
+    border: 1px solid;
+    padding: 20px;
+   }
+
+ 
+
+   .carname{
+    font-weight: bold;
+    font-size: 25px;
+   }
+   .carfuel{
+    font-size: 20px;
+    padding-top: 5px;
+   }
+
+   .carrent{
+    padding-top: 5px;
+    font-size: 20px;
+   }
+
+   .cargrid .cargrid-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    width: 400px;
+    padding: 10px 0;
+   }
+
+   .carinfo-img{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+   }
+
+   .carinfo-img img{
+    object-fit: cover;
+    object-position: center;
+    width:400px;
+    padding: 20px;
+    
+   }
+   .container{
+    padding: 20px;
+   }
+   .picker{
+    margin: 10px 0;
+   }
+
+   .container > *{
+    font-weight: 200;
+    padding-top: 3px;
+
+    margin: 2px;
+   }
+
+   .container h1{
+    font-weight: bold;
+   }
+
+   .container > p{
+    font-weight: 20px !important;
+   }
+   .slot{
+    font-size: 20px;
+   }
+   
+   *{
+    /* border: 1px solid; */
+   }
